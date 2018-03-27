@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>Function returns an Azure CloudTable reference for a table named entities</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.DevOps.Code.Entities.GetAzureTable</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/DevOps.Code.Entities.GetAzureTable/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/DevOps.Code.Entities.GetAzureTable</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/DevOps.Code.Entities.GetAzureTable</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Azure.Storage.Table.GetAzureTable" Version="4.0.5" />
+    <PackageReference Include="CDorst.DevOps.Build.AppVeyor.AzureStorageTableLedger" Version="4.0.6" />
+  </ItemGroup>
+
+</Project>
